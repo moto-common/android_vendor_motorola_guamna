@@ -1,0 +1,64 @@
+{
+  "config":{
+    "hw_platform": ["IDP"],
+    "soc_id": [ "417", "420", "444", "445"],
+    "ro.vendor.hw.revision": ["dvt1", "dvt2"]
+  },
+  "tmd2755_platform":{
+    "owner": "sns_tmd2755",
+    ".prox":{
+      "owner": "sns_tmd2755",
+      ".def_config":{
+        "owner": "sns_tmd2755",
+        "pgain":{ "type": "flt", "ver": "10101010",
+          "data": "1.0"
+        },
+        "ptime":{ "type": "flt", "ver": "10101010",
+          "data": "12672.0"
+        },
+        "pwtime":{ "type": "flt", "ver": "10101010",
+          "data": "100.0"
+        },
+        "ppulse":{ "type": "flt", "ver": "10101010",
+          "data": "32.0"
+        },
+        "pldrive":{ "type": "flt", "ver": "10101010",
+          "data": "7.0"
+        },
+        "ppulse_len":{ "type": "flt", "ver": "10101010",
+          "data": "80.0"
+        },
+        "ppers":{ "type": "flt", "ver": "10101010",
+          "data": "1.0"
+        },
+        "pBinSearch":{ "type": "flt", "ver": "10101010",
+          "data": "63.0"
+        },
+        "pOffsetStep":{ "type": "flt", "ver": "10101010",
+          "data": "20.19"
+        },
+        "pOffsetStepCoef":{ "type": "flt", "ver": "10101010",
+          "data": "5.05"
+        },
+        "low_coef":{ "type": "flt", "ver": "10101010",
+          "data": "0.35"
+        },
+        "high_coef":{ "type": "flt", "ver": "10101010",
+          "data": "0.657"
+        }
+      }
+    },
+    ".golden_value":{
+      "owner": "sns_tmd2755",
+      "near_threshold":{ "type": "flt", "ver": "10101010",
+        "data": "111"
+      },
+      "far_threshold":{ "type": "flt", "ver": "10101010",
+        "data": "65"
+      },
+      "lux_scale":{ "type": "flt", "ver": "10101010",
+        "data": "1.0"
+      }
+    }
+  }
+}
