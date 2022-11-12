@@ -198,18 +198,30 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guamna/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/motorola/guamna/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.mot.eeprom.mot_dw9763_s5k3l6_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_dw9763_s5k3l6_eeprom.so \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gc5035_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gc5035_otp.so \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.mot.eeprom.mot_hi556_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_hi556_otp.so \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_ov02b1b_otp.so \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensor.mot_gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_gc5035.so \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensor.mot_hi556.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_hi556.so \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensor.mot_ov02b1b.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_ov02b1b.so \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensor.mot_s5k3l6.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_s5k3l6.so \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensor.mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_s5k4h7.so \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensor.mot_s5kgm1st.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.mot_s5kgm1st.so \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_guam_ov02b1b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_guam_ov02b1b_ofilm.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_guam_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_guam_s5k4h7_ofilm.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_guam_s5kgm1st_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_guam_s5kgm1st_ofilm.bin \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_guamna_gc5035_kingcome.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_guamna_gc5035_kingcome.bin \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_guamna_hi556_holitech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_guamna_hi556_holitech.bin \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_guamna_ov02b1b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_guamna_ov02b1b_ofilm.bin \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_guamna_s5k3l6_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_guamna_s5k3l6_ofilm.bin \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.tuned.mot_guam_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_guam_ov02b1b.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.tuned.mot_guam_s5k3l6.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_guam_s5k3l6.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.tuned.mot_guam_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_guam_s5k4h7.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.tuned.mot_guam_s5kgm1st.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_guam_s5kgm1st.bin \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.tuned.mot_guamna_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_guamna_gc5035.bin \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.tuned.mot_guamna_hi556.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_guamna_hi556.bin \
     vendor/motorola/guamna/proprietary/vendor/lib/camera/com.qti.tuned.mot_guamna_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_guamna_ov02b1b.bin \
@@ -292,18 +304,30 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guamna/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/motorola/guamna/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_dw9763_s5k3l6_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_dw9763_s5k3l6_eeprom.so \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gc5035_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gc5035_otp.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_hi556_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_hi556_otp.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensor.mot_gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_gc5035.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensor.mot_hi556.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_hi556.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov02b1b.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov02b1b.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5k3l6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5k3l6.so \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5k4h7.so \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kgm1st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kgm1st.so \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guam_ov02b1b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guam_ov02b1b_ofilm.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guam_s5k4h7_ofilm.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5kgm1st_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guam_s5kgm1st_ofilm.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guamna_gc5035_kingcome.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guamna_gc5035_kingcome.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guamna_hi556_holitech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guamna_hi556_holitech.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guamna_ov02b1b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guamna_ov02b1b_ofilm.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guamna_s5k3l6_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guamna_s5k3l6_ofilm.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.tuned.mot_guam_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_guam_ov02b1b.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.tuned.mot_guam_s5k3l6.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_guam_s5k3l6.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.tuned.mot_guam_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_guam_s5k4h7.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.tuned.mot_guam_s5kgm1st.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_guam_s5kgm1st.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.tuned.mot_guamna_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_guamna_gc5035.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.tuned.mot_guamna_hi556.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_guamna_hi556.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.tuned.mot_guamna_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_guamna_ov02b1b.bin \
@@ -386,6 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guamna/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/libjpege.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpege.so \
+    vendor/motorola/guamna/proprietary/vendor/lib64/libmctfengine_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmctfengine_stub.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
