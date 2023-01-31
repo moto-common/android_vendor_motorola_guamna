@@ -306,7 +306,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5k4h7.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kgm1st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kgm1st.so \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guam_ov02b1b_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guam_ov02b1b_ofilm.bin \
-    vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin \
+    vendor/motorola/guamna/proprietary/vendor/lib64/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5k4h7_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guam_s5k4h7_ofilm.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5kgm1st_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guam_s5kgm1st_ofilm.bin \
     vendor/motorola/guamna/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_guamna_gc5035_kingcome.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_guamna_gc5035_kingcome.bin \
